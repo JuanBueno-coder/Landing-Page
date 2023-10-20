@@ -1,51 +1,59 @@
-*,
-*::after,
-*::before {
-  padding: 0;
-  margin: 0;
-}
-a{
-    color: azure;
-}
-a:hover{
-    color: blueviolet;
-}
-
-
-.navbar {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-.links-wrap {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    list-style: none;
-    margin-left: auto;
-    margin-right: 12px;
-}
-.link{
-    margin: 10px;
-}
-  
 body{
+    padding: 0;
+    margin:0;
     font-family: 'Roboto', sans-serif;
 }
-h1{
+.Hero__left-heading{
     font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+main{
+    
+    align-items: center;
     background-color: #1F2937;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
     color: white;
 }
-.Duck-Logo{
-    font-size: 24px;
+.nombre-empresa{
+    font-size: 600;
+    margin-left: 30px;
 }
-.Duck-Image{
-    width: 200px;
-    height: auto;
+hero{
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 45px;
+    column-gap: 45px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-.links-wrap{
-
+.Hero__left-text{
+    font-size: 18px;
+    color: #E5E7EB
 }
+button{
+    color:#3882F6 ;
+}
+//Renfe011
