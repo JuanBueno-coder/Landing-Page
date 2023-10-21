@@ -7,6 +7,7 @@ body{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 0;
 }
 header{
     display: flex;
@@ -48,12 +49,57 @@ hero{
     column-gap: 45px;
     margin-left: 10%;
     margin-right: 10%;
+    padding: 10px;
 }
 .Hero__left-text{
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    margin-top: 5px;
 }
 button{
-    color:#3882F6 ;
+    background-color:#3882F6 ;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid #E8E8E8;
+    text-align: center;
 }
-//Renfe011
+.mid{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.mid h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-wrap{
+    display: flex;
+    align-items: stretch;
+    justify-content:space-between ;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+.mid-img{
+    margin-left: 2%;
+    margin-right: 2%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 2px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+}
+.mid-img img{
+    width: 150px;
+    height: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    
+}
